@@ -8,7 +8,7 @@ import os
 # สร้าง instance ของ bot
 bot = commands.Bot(command_prefix='!', intents=nextcord.Intents.all())
 
-token = "TOKEN"  # เปลี่ยนเป็น Token ของคุณ
+token = os.getenv("TOKEN")  # เปลี่ยนเป็น Token ของคุณ
 
 log = 1258352413333655657
 
