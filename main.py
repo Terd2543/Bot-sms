@@ -6,7 +6,7 @@ from time import sleep
 import requests
 
 
-token = os.getenv("TOKEN") #ใส่โทนเคนบอทใน ""
+token = os.getenv("TOKEN") #ใส่โทนเคนบอทใน 
 guild_id = 1258352412884860959 #ใส่ไอดีเซิฟเวอร์
 channelcommand = 1258352413333655657
 prefixs = "/" #เปลี่ยนได้ คำนำหน้า
