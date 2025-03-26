@@ -4,7 +4,7 @@ from os import system
 from colorama import Fore
 from time import sleep
 import requests
-
+import os
 
 token = os.getenv("TOKEN") #ใส่โทนเคนบอทใน 
 guild_id = 1258352412884860959 #ใส่ไอดีเซิฟเวอร์
